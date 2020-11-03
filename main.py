@@ -11,6 +11,9 @@ def task(count):
         print("任务执行完成")
 
 
+while True:
+    task(5)
+
 if __name__ == '__main__':
     # 创建子进程
     # args: 以元组的方式给任务传入参数
